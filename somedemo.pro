@@ -7,4 +7,8 @@ TARGET = somedemo
 INCLUDEPATH += .
 
 # Input
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    whatelse.cpp
+
+HEADERS += \
+    whatelse.h
